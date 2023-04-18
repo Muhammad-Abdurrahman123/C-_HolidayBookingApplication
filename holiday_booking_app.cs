@@ -123,6 +123,8 @@ else if (hotelSelect==2)
 
 	hotelPrice=200; 
 
+	Console.WriteLine("How many weeks will you stay at the hotel? Select 1, 2 or 3");
+
 	weekSelect = Convert.ToInt32(Console.ReadLine());
 
 	Console.WriteLine("You selected " + weekSelect);
@@ -158,6 +160,8 @@ else if (hotelSelect==3)
 	Console.WriteLine("Thank you for selecting Hotel Tres"); 
 
 	hotelPrice=300; 
+	
+	Console.WriteLine("How many weeks will you stay at the hotel? Select 1, 2 or 3");
 
 	weekSelect = Convert.ToInt32(Console.ReadLine());
 
@@ -224,6 +228,8 @@ if (hotelSelect==1)
 	Console.WriteLine("Thank you for selecting Hotel One"); 
 
 	hotelPrice=100; 
+	
+	Console.WriteLine("How many weeks will you stay at the hotel? Select 1, 2 or 3");
 
 	weekSelect = Convert.ToInt32(Console.ReadLine());
 
@@ -259,6 +265,8 @@ else if (hotelSelect==2)
 	Console.WriteLine("Thank you for selecting Hotel Two"); 
 
 	hotelPrice=200; 
+	
+	Console.WriteLine("How many weeks will you stay at the hotel? Select 1, 2 or 3");
 
 	weekSelect = Convert.ToInt32(Console.ReadLine());
 
@@ -295,6 +303,8 @@ else if (hotelSelect==3)
 	Console.WriteLine("Thank you for selecting Hotel Three"); 
 
 	hotelPrice=300;
+	
+	Console.WriteLine("How many weeks will you stay at the hotel? Select 1, 2 or 3");
 
 	weekSelect = Convert.ToInt32(Console.ReadLine());
 
@@ -361,6 +371,8 @@ if (hotelSelect==1)
 	Console.WriteLine("Thank you for selecting Hotel Un"); 
 
 	hotelPrice=100; 
+	
+	Console.WriteLine("How many weeks will you stay at the hotel? Select 1, 2 or 3");
 
 	weekSelect = Convert.ToInt32(Console.ReadLine());
 
@@ -397,6 +409,8 @@ else if (hotelSelect==2)
 	Console.WriteLine("Thank you for selecting Hotel Deux"); 
 
 	hotelPrice=200; 
+	
+	Console.WriteLine("How many weeks will you stay at the hotel? Select 1, 2 or 3");
 
 	weekSelect = Convert.ToInt32(Console.ReadLine());
 
@@ -433,6 +447,8 @@ else if (hotelSelect==3)
 	Console.WriteLine("Thank you for selecting Hotel Trois"); 
 
 	hotelPrice=300; 
+	
+	Console.WriteLine("How many weeks will you stay at the hotel? Select 1, 2 or 3");
 
 	weekSelect = Convert.ToInt32(Console.ReadLine());
 
