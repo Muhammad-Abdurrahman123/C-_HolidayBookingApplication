@@ -117,7 +117,7 @@ if (hotelSelect==1)
 
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
-	Console.WriteLine("The total cost is £" + totalPrice);
+	Console.WriteLine("\nThe total cost is £" + totalPrice);
 
 
 } 
@@ -156,7 +156,7 @@ else if (hotelSelect==2)
 
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
-	Console.WriteLine("The total cost is £" + totalPrice);
+	Console.WriteLine("\nThe total cost is £" + totalPrice);
 
 	} 
 
@@ -194,7 +194,7 @@ else if (hotelSelect==3)
 
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
-	Console.WriteLine("The total cost is £" + totalPrice);
+	Console.WriteLine("\nThe total cost is £" + totalPrice);
 
 } 
 
@@ -267,7 +267,7 @@ if (hotelSelect < 1 || hotelSelect > 3)
 
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
-	Console.WriteLine("The total cost is £" + totalPrice);
+	Console.WriteLine("\nThe total cost is £" + totalPrice);
 	} 
 
   
@@ -304,7 +304,7 @@ if (hotelSelect==2)
 
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
-	Console.WriteLine("The total cost is £" + totalPrice);
+	Console.WriteLine("\nThe total cost is £" + totalPrice);
 
 	}  
 
@@ -340,7 +340,7 @@ else if (hotelSelect==3)
 
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
-	Console.WriteLine("The total cost is £" + totalPrice);
+	Console.WriteLine("\nThe total cost is £" + totalPrice);
 
 	} 
 
@@ -411,7 +411,7 @@ if (hotelSelect==1)
 
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
-	Console.WriteLine("The total cost is £" + totalPrice);
+	Console.WriteLine("\nThe total cost is £" + totalPrice);
 
 } 
 
@@ -449,7 +449,7 @@ else if (hotelSelect==2)
 
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
-	Console.WriteLine("The total cost is £" + totalPrice);
+	Console.WriteLine("\nThe total cost is £" + totalPrice);
 
 } 
 
@@ -495,4 +495,4 @@ else if (hotelSelect==3)
 
 } 
 
-} 		 
+} 	
