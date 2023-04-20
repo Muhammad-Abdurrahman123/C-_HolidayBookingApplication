@@ -9,25 +9,34 @@ public class Program
 public static void Main() 
 
 { 
-
+ // Select your destination
 int DestSelect=0; 
 
+// Select your hotel
 int hotelSelect=0; 
-	
+
+// Select your duration of stay
 int weekSelect=0;	
 
+// Number of adults on the trip
 int adultNumber=0;
 
+// Number of children
 int childNumber=0;	
 
+// Price of the flight
 int destPrice=0; 
-
+	
+// Price of the hotel
 int hotelPrice=0; 
 	
+// The total hotel price for an adult	
 int hotelTotalAdult=(hotelPrice * weekSelect * adultNumber);
 	
+// The calculation for the price of children	
 int childPrice=((hotelPrice * weekSelect * childNumber) / 2);
 	
+// The calculation for the total price	
 int totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
 Console.WriteLine("Holiday System"); 
@@ -56,15 +65,15 @@ if(DestSelect==1)
 
 destPrice=200;  
 
-Console.WriteLine("You selected Spain at " + destPrice); 
+Console.WriteLine("You selected Spain at £" + destPrice); 
 
 Console.WriteLine("Hotels in Spain"); 
 
-	Console.WriteLine("Hotel 1: Hotel Uno at 100"); 
+	Console.WriteLine("Hotel 1: Hotel Uno at £100"); 
 
-	Console.WriteLine("Hotel 2: Hotel Dos at 200"); 
+	Console.WriteLine("Hotel 2: Hotel Dos at £200"); 
 
-	Console.WriteLine("Hotel 3: Hotel Tres at 300"); 
+	Console.WriteLine("Hotel 3: Hotel Tres at £300"); 
 
 Console.WriteLine("Make selection 1, 2 or 3"); 
 
@@ -205,11 +214,11 @@ Console.WriteLine("You selected UK at " + destPrice);
 
 Console.WriteLine("Hotels in UK"); 
 
-	Console.WriteLine("Hotel 1: Hotel One at 100"); 
+	Console.WriteLine("Hotel 1: Hotel One at £100"); 
 
-    Console.WriteLine("Hotel 2: Hotel Two at 200"); 
+    Console.WriteLine("Hotel 2: Hotel Two at £200"); 
 
-    Console.WriteLine("Hotel 3: Hotel Three at 300"); 
+    Console.WriteLine("Hotel 3: Hotel Three at £300"); 
 
 Console.WriteLine("Make selection 1, 2 or 3"); 
 
@@ -222,6 +231,11 @@ Console.WriteLine("You selected " + hotelSelect);
  
 
 if (hotelSelect==1) 
+if (hotelSelect < 1 || hotelSelect > 3)
+{
+	Console.WriteLine("Invalid input, please try again. Only inputs of 1, 2 or 3 are accepted");
+	return;
+}
 
 { 
 
@@ -258,7 +272,7 @@ if (hotelSelect==1)
 
   
 
-else if (hotelSelect==2) 
+if (hotelSelect==2) 
 
 { 
 
@@ -292,9 +306,7 @@ else if (hotelSelect==2)
 
 	Console.WriteLine("The total cost is £" + totalPrice);
 
-	} 
-
-  
+	}  
 
 else if (hotelSelect==3) 
 
@@ -348,11 +360,11 @@ Console.WriteLine("You selected France at " + destPrice);
 
 Console.WriteLine("Hotels in France"); 
 
-	Console.WriteLine("Hotel 1: Hotel Un at 100"); 
+	Console.WriteLine("Hotel 1: Hotel Un at £100"); 
 
-    Console.WriteLine("Hotel 2: Hotel Deux at 200"); 
+    Console.WriteLine("Hotel 2: Hotel Deux at £200"); 
 
-    Console.WriteLine("Hotel 3: Hotel Trois at 300"); 
+    Console.WriteLine("Hotel 3: Hotel Trois at £300"); 
 
 Console.WriteLine("Make selection 1, 2 or 3"); 
 
@@ -361,8 +373,11 @@ Console.WriteLine("Make selection 1, 2 or 3");
 hotelSelect = Convert.ToInt32(Console.ReadLine()); 
 
 Console.WriteLine("You selected " + hotelSelect); 
-
- 
+if (hotelSelect < 1 || hotelSelect > 3)
+{
+	Console.WriteLine("Invalid input, please try again. Only inputs of 1, 2 or 3 are accepted");
+	return;
+}
 
 if (hotelSelect==1) 
 
@@ -472,7 +487,7 @@ else if (hotelSelect==3)
 
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
-	Console.WriteLine("The total cost is £" + totalPrice);
+	Console.WriteLine("\nThe total cost is £" + totalPrice);
 
 } 
 
@@ -480,4 +495,4 @@ else if (hotelSelect==3)
 
 } 
 
-} 
+} 		 
