@@ -158,7 +158,7 @@ else if (hotelSelect==2)
 
 	Console.WriteLine("Thank you for selecting Hotel Dos"); 
 
-	hotelPrice=200; 
+	hotelPrice=200;
 
 	Console.WriteLine("How many weeks will you stay at the hotel? Select 1, 2 or 3");
 
