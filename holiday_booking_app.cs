@@ -39,6 +39,7 @@ int childPrice=((hotelPrice * weekSelect * childNumber) / 2);
 // The calculation for the total price	
 int totalPrice=(hotelTotalAdult + childPrice + destPrice);
 	
+// Below are two lines of code that are responsible for creating a while loop, giving the user the option to restart this program.	
 bool runAgain=true;
 
 while (runAgain)
