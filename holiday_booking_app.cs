@@ -38,6 +38,11 @@ int childPrice=((hotelPrice * weekSelect * childNumber) / 2);
 	
 // The calculation for the total price	
 int totalPrice=(hotelTotalAdult + childPrice + destPrice);
+	
+bool runAgain=true;
+
+while (runAgain)
+{
 
 Console.WriteLine("Holiday System"); 
 
@@ -118,6 +123,29 @@ if (hotelSelect==1)
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
 	Console.WriteLine("\nThe total cost is £" + totalPrice);
+	
+	Console.WriteLine("\nDo you wish to confirm your booking? 1 for Yes. 2 for No");
+	
+	int confirmation = int.Parse(Console.ReadLine());
+	
+	if (confirmation == 1)
+	{
+		Console.WriteLine("Booking confirmed. Thank you for using our booking application. Have a nice holiday!");
+	}
+	else if (confirmation == 2)
+	{
+		Console.WriteLine("Booking canceled.");
+	}
+	
+	Console.WriteLine("\nDo you want to use the booking application again? 1 for Yes. 2 for No");
+		
+	int choice = int.Parse(Console.ReadLine());
+	
+	if (choice == 2)
+	{
+		runAgain = false;
+		Console.WriteLine("Thank you for using our application.");
+	}
 
 
 } 
@@ -157,6 +185,29 @@ else if (hotelSelect==2)
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
 	Console.WriteLine("\nThe total cost is £" + totalPrice);
+	
+	Console.WriteLine("\nDo you wish to confirm your booking? 1 for Yes. 2 for No");
+	
+	int confirmation = int.Parse(Console.ReadLine());
+	
+	if (confirmation == 1)
+	{
+		Console.WriteLine("Booking confirmed. Thank you for using our booking application. Have a nice holiday!");
+	}
+	else if (confirmation == 2)
+	{
+		Console.WriteLine("Booking canceled.");
+	}
+	
+	Console.WriteLine("\nDo you want to use the booking application again? 1 for Yes. 2 for No");
+		
+	int choice = int.Parse(Console.ReadLine());
+	
+	if (choice == 2)
+	{
+		runAgain = false;
+		Console.WriteLine("Thank you for using our application.");
+	}
 
 	} 
 
@@ -195,6 +246,29 @@ else if (hotelSelect==3)
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
 	Console.WriteLine("\nThe total cost is £" + totalPrice);
+	
+	Console.WriteLine("\nDo you wish to confirm your booking? 1 for Yes. 2 for No");
+	
+	int confirmation = int.Parse(Console.ReadLine());
+	
+	if (confirmation == 1)
+	{
+		Console.WriteLine("Booking confirmed. Thank you for using our booking application. Have a nice holiday!");
+	}
+	else if (confirmation == 2)
+	{
+		Console.WriteLine("Booking canceled.");
+	}
+	
+	Console.WriteLine("\nDo you want to use the booking application again? 1 for Yes. 2 for No");
+		
+	int choice = int.Parse(Console.ReadLine());
+	
+	if (choice == 2)
+	{
+		runAgain = false;
+		Console.WriteLine("Thank you for using our application.");
+	}
 
 } 
 
@@ -268,6 +342,29 @@ if (hotelSelect < 1 || hotelSelect > 3)
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
 	Console.WriteLine("\nThe total cost is £" + totalPrice);
+	
+	Console.WriteLine("\nDo you wish to confirm your booking? 1 for Yes. 2 for No");
+	
+	int confirmation = int.Parse(Console.ReadLine());
+	
+	if (confirmation == 1)
+	{
+		Console.WriteLine("Booking confirmed. Thank you for using our booking application. Have a nice holiday!");
+	}
+	else if (confirmation == 2)
+	{
+		Console.WriteLine("Booking canceled.");
+	}
+	
+	Console.WriteLine("\nDo you want to use the booking application again? 1 for Yes. 2 for No");
+		
+	int choice = int.Parse(Console.ReadLine());
+	
+	if (choice == 2)
+	{
+		runAgain = false;
+		Console.WriteLine("Thank you for using our application.");
+	}
 	} 
 
   
@@ -305,6 +402,29 @@ if (hotelSelect==2)
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
 	Console.WriteLine("\nThe total cost is £" + totalPrice);
+	
+	Console.WriteLine("\nDo you wish to confirm your booking? 1 for Yes. 2 for No");
+	
+	int confirmation = int.Parse(Console.ReadLine());
+	
+	if (confirmation == 1)
+	{
+		Console.WriteLine("Booking confirmed. Thank you for using our booking application. Have a nice holiday!");
+	}
+	else if (confirmation == 2)
+	{
+		Console.WriteLine("Booking canceled.");
+	}
+	
+	Console.WriteLine("\nDo you want to use the booking application again? 1 for Yes. 2 for No");
+		
+	int choice = int.Parse(Console.ReadLine());
+	
+	if (choice == 2)
+	{
+		runAgain = false;
+		Console.WriteLine("Thank you for using our application.");
+	}
 
 	}  
 
@@ -341,6 +461,29 @@ else if (hotelSelect==3)
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
 	Console.WriteLine("\nThe total cost is £" + totalPrice);
+	
+	Console.WriteLine("\nDo you wish to confirm your booking? 1 for Yes. 2 for No");
+	
+	int confirmation = int.Parse(Console.ReadLine());
+	
+	if (confirmation == 1)
+	{
+		Console.WriteLine("Booking confirmed. Thank you for using our booking application. Have a nice holiday!");
+	}
+	else if (confirmation == 2)
+	{
+		Console.WriteLine("Booking canceled.");
+	}
+	
+	Console.WriteLine("\nDo you want to use the booking application again? 1 for Yes. 2 for No");
+		
+	int choice = int.Parse(Console.ReadLine());
+	
+	if (choice == 2)
+	{
+		runAgain = false;
+		Console.WriteLine("Thank you for using our application.");
+	}
 
 	} 
 
@@ -412,6 +555,29 @@ if (hotelSelect==1)
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
 	Console.WriteLine("\nThe total cost is £" + totalPrice);
+	
+	Console.WriteLine("\nDo you wish to confirm your booking? 1 for Yes. 2 for No");
+	
+	int confirmation = int.Parse(Console.ReadLine());
+	
+	if (confirmation == 1)
+	{
+		Console.WriteLine("Booking confirmed. Thank you for using our booking application. Have a nice holiday!");
+	}
+	else if (confirmation == 2)
+	{
+		Console.WriteLine("Booking canceled.");
+	}
+	
+	Console.WriteLine("\nDo you want to use the booking application again? 1 for Yes. 2 for No");
+		
+	int choice = int.Parse(Console.ReadLine());
+	
+	if (choice == 2)
+	{
+		runAgain = false;
+		Console.WriteLine("Thank you for using our application.");
+	}
 
 } 
 
@@ -450,6 +616,29 @@ else if (hotelSelect==2)
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
 	Console.WriteLine("\nThe total cost is £" + totalPrice);
+	
+	Console.WriteLine("\nDo you wish to confirm your booking? 1 for Yes. 2 for No");
+	
+	int confirmation = int.Parse(Console.ReadLine());
+	
+	if (confirmation == 1)
+	{
+		Console.WriteLine("Booking confirmed. Thank you for using our booking application. Have a nice holiday!");
+	}
+	else if (confirmation == 2)
+	{
+		Console.WriteLine("Booking canceled.");
+	}
+	
+	Console.WriteLine("\nDo you want to use the booking application again? 1 for Yes. 2 for No");
+		
+	int choice = int.Parse(Console.ReadLine());
+	
+	if (choice == 2)
+	{
+		runAgain = false;
+		Console.WriteLine("Thank you for using our application.");
+	}
 
 } 
 
@@ -488,10 +677,34 @@ else if (hotelSelect==3)
 	totalPrice=(hotelTotalAdult + childPrice + destPrice);
 
 	Console.WriteLine("\nThe total cost is £" + totalPrice);
+	
+	Console.WriteLine("\nDo you wish to confirm your booking? 1 for Yes. 2 for No");
+	
+	int confirmation = int.Parse(Console.ReadLine());
+	
+	if (confirmation == 1)
+	{
+		Console.WriteLine("Booking confirmed. Thank you for using our booking application. Have a nice holiday!");
+	}
+	else if (confirmation == 2)
+	{
+		Console.WriteLine("Booking canceled.");
+	}
+	
+	Console.WriteLine("\nDo you want to use the booking application again? 1 for Yes. 2 for No");
+		
+	int choice = int.Parse(Console.ReadLine());
+	
+	if (choice == 2)
+	{
+		runAgain = false;
+		Console.WriteLine("Thank you for using our application.");
+	}
+}
 
 } 
 
-}// dest 3 if ended 
+} // dest 3 if ended 
 
 } 
 
