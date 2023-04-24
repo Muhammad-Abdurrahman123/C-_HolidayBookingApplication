@@ -201,7 +201,7 @@ else if (hotelSelect==2)
 
 	Console.WriteLine(adultNumber + " adults will stay at the hotel");
 
-	Console.WriteLine("How many children will be staying at the hotel?");
+	Console.WriteLine("How many children under 12 will be staying at the hotel?");
 
 	childNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -265,7 +265,7 @@ else if (hotelSelect==3)
 
 	Console.WriteLine(adultNumber + " adults will stay at the hotel");
 
-	Console.WriteLine("How many children will be staying at the hotel?");
+	Console.WriteLine("How many children under 12 will be staying at the hotel?");
 
 	childNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -364,7 +364,7 @@ if (hotelSelect < 1 || hotelSelect > 3)
 
 	Console.WriteLine(adultNumber + " adults will stay at the hotel");
 
-	Console.WriteLine("How many children will be staying at the hotel?");
+	Console.WriteLine("How many children under 12 will be staying at the hotel?");
 
 	childNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -427,7 +427,7 @@ if (hotelSelect==2)
 
 	Console.WriteLine(adultNumber + " adults will stay at the hotel");
 
-	Console.WriteLine("How many children will be staying at the hotel?");
+	Console.WriteLine("How many children under 12 will be staying at the hotel?");
 
 	childNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -491,7 +491,7 @@ else if (hotelSelect==3)
 
 	Console.WriteLine(adultNumber + " adults will stay at the hotel");
 
-	Console.WriteLine("How many children will be staying at the hotel?");
+	Console.WriteLine("How many children under 12 will be staying at the hotel?");
 
 	childNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -588,7 +588,7 @@ if (hotelSelect==1)
 
 	Console.WriteLine(adultNumber + " adults will stay at the hotel");
 
-	Console.WriteLine("How many children will be staying at the hotel?");
+	Console.WriteLine("How many children under 12 will be staying at the hotel?");
 
 	childNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -652,7 +652,7 @@ else if (hotelSelect==2)
 
 	Console.WriteLine(adultNumber + " adults will stay at the hotel");
 
-	Console.WriteLine("How many children will be staying at the hotel?");
+	Console.WriteLine("How many children under 12 will be staying at the hotel?");
 
 	childNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -716,7 +716,7 @@ else if (hotelSelect==3)
 
 	Console.WriteLine(adultNumber + " adults will stay at the hotel");
 
-	Console.WriteLine("How many children will be staying at the hotel?");
+	Console.WriteLine("How many children under 12 will be staying at the hotel?");
 
 	childNumber = Convert.ToInt32(Console.ReadLine());
 
